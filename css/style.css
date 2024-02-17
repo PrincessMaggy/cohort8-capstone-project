@@ -39,23 +39,23 @@ body {
 }
 /*for-section-text-start-here*/
 ::selection {
-    background: green; /* WebKit/Blink Browsers */
+    background:darksalmon; /* WebKit/Blink Browsers */
     color: #fff;
 }
 ::-webkit-selection {
-    background-color: green;
+    background-color:darksalmon;
     color: #fff;
 }
 ::-ms-selection {
-    background-color: green;
+    background-color:darksalmon;
     color: #fff;
 }
 ::-o-selection {
-    background-color: green;
+    background-color:darksalmon;
     color: #fff;
 }
 ::-moz-selection {
-    background-color: green;
+    background-color:darksalmon;
     color: #fff;
 }
 /* ========================================================================
@@ -142,7 +142,7 @@ body {
 }
 p {
     font-size: 13px;
-    color: #666;
+    color: #ece3e3;
     font-weight: bolder;
     line-height: 25px;
     font-family: 'open_sansregular';
@@ -167,22 +167,22 @@ h1 {
     text-transform: uppercase;
 }
 h2 {
-    color: #555;
+    color: #fff;
     font-size: 35px;
     text-transform: uppercase;
     font-weight: bolder;
 }
 h3 {
-    color: #333;
+    color: #f1e6e6;
     font-size: 23px;
 }
 h4 {
-    color: #555;
+    color: #f1e6e6;
     font-size: 21px;
     text-transform: uppercase;
 }
 h5 {
-    color: #333;
+    color: #f1e6e6;
     font-size: 18px;
 }
 h6 {
@@ -192,13 +192,13 @@ strong {
     font-weight: bolder;
 }
 span {
-    color: green;
+    color:darksalmon;
 }
 .space {
     margin: 30px 0px;
 }
 .line {
-    border: 1px solid green;
+    border: 1px soliddarksalmon;
     width: 15%;
 }
 a:hover,
@@ -217,7 +217,7 @@ a.btn-down {
 }
 a.btn-down:hover {
     background: #fff;
-    color: green;
+    color:darksalmon;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -226,15 +226,15 @@ a.btn-down:hover {
 a.btn-order {
     height: 50px;
     width: 50px;
-    color: green;
-    border: 2px solid green;
+    color:darksalmon;
+    border: 2px soliddarksalmon;
     padding: 3% 5%;
     font-size: 15px;
     position: relative;
     top: 5px;
 }
 a.btn-order:hover {
-    background: green;
+    background:darksalmon;
     color: #fff;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -242,14 +242,15 @@ a.btn-order:hover {
     -webkit-transition: all 0.5s;
 }
 a.btn-send {
-    color: green;
-    border: 2px solid green;
+    color:white;
+    border: 2px soliddarksalmon;
     padding: 2% 0%;
     font-size: 15px;
+    background-color: darksalmon;
 }
 a.btn-send:hover {
-    background: green;
-    color: #fff;
+    background:#fff;
+    color: darksalmon;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -261,20 +262,22 @@ a.btn-send:hover {
     border: rgba(248, 248, 248, 0);
     padding: 5px 5px;
 }
-a.navbar-brand img {
+.navbar-brand  {
     position: relative;
-    top: 9px;
+    top: 20px;
 }
+
 #menu {
     position: absolute;
 }
 #menu .nav {
-    left: 25%;
+    left: 50%;
     position: relative;
+    padding: 20px;
 }
 #menu ul.nav li a {
-    font-size: 15px;
-    color: #fff;
+    font-size: 20px;
+    color: darksalmon;
 }
 #menu .nav > li > a {
     background: none;
@@ -282,17 +285,17 @@ a.navbar-brand img {
 }
 #menu ul.nav li a:hover,
 #menu ul.nav li a.active {
-    color: green;
+    color:white;
     transition: all 0.4s;
 }
 #menu .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: green;
+    color:darksalmon;
     background: transparent;
 }
 a.navbar-brand {
-    padding: 0px;
+    padding: 20px;
     margin-top: -3px;
 }
 ul.nav li.active a:before {
@@ -320,7 +323,7 @@ ul.nav li.active a:before {
     height: 100%;
     top: 0;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.8;
     position: absolute;
     width: 100%;
 }
@@ -357,7 +360,7 @@ ul.nav li.active a:before {
 }
 .home-carousel-left,
 .home-carousel-right {
-    background-color: green;
+    background-color:darksalmon;
     color: #fff;
     font-size: 32px;
     height: 40px;
@@ -432,18 +435,21 @@ ul.nav li.active a:before {
 /*About-stylesheets-include-here*/
 #about {
     padding: 3% 0%;
+    background-color: #3f3939;
 }
 #about .heading {
     text-align: center;
 }
 .heading h2 {
     font-family: 'helvetica_ce_55_romanregular';
+    padding-top: 20px;
+
 }
 .heading p {
     padding: 20px 0px;
     font-size: 13px;
     font-weight: bolder;
-    color: #555;
+    color: #fff;
 }
 .ab-sec {
     text-align: justify;
@@ -457,7 +463,7 @@ ul.nav li.active a:before {
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
-    background: green;
+    background:darksalmon;
     margin-top: 10px;
     padding: 1% 0%;
 }
@@ -496,13 +502,13 @@ ul.nav li.active a:before {
     text-align: center;
     width: 64px;
     border-radius: 100%;
-    color: green;
+    color:darksalmon;
     border: 1px solid #d7d7d7;
     transition: background-color 400ms, background-color 400ms;
     position: relative;
 }
 .media.service-box:hover .pull-left > i {
-    background: green;
+    background:darksalmon;
     color: #fff;
     transform: rotateY(360deg);
     -moz-transform: rotate(360deg);
@@ -539,7 +545,7 @@ ul.nav li.active a:before {
     padding-right: 12px;
     font-size: 12px;
     font-weight: 600;
-    background: green;
+    background:darksalmon;
 }
 .progress .progress-bar.six-sec-ease-in-out {
     -webkit-transition: width 2s ease-in-out;
@@ -566,7 +572,7 @@ ul.nav li.active a:before {
 #features .nav-tabs > li.active > a:hover,
 #features .nav-tabs > li.active > a:focus {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
-    border-bottom: 2px solid green;
+    border-bottom: 2px soliddarksalmon;
     background: #f8f8f8;
 }
 #features .nav-tabs > li > a {
@@ -587,7 +593,7 @@ ul.nav li.active a:before {
     font-size: 25px;
 }
 #features .nav-tabs > li.active > a i.fa {
-    color: green;
+    color:darksalmon;
 }
 #features .nav-tabs > li > a:hover {
     border-color: transparent;
@@ -616,7 +622,7 @@ ul.nav li.active a:before {
 /*Portfolio-stylesheets-include-here*/
 #portfolio {
     padding: 2% 0%;
-    background: #f5f5f5;
+    background: #3f3939;
     text-align: center;
 }
 #portfolio .portfolio-filter {
@@ -638,7 +644,7 @@ ul.nav li.active a:before {
 }
 #portfolio .portfolio-filter > li a:hover,
 #portfolio .portfolio-filter > li a.active {
-    background: green;
+    background:darksalmon;
     color: #fff;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
@@ -658,7 +664,7 @@ ul.nav li.active a:before {
     margin-left: -10px;
     border-width: 10px;
     border-style: solid;
-    border-color: green transparent transparent transparent;
+    border-color:darksalmon transparent transparent transparent;
 }
 #portfolio .portfolio-filter > li:first-child a {
     border-radius: 4px 0 0 4px;
@@ -694,8 +700,8 @@ ul.nav li.active a:before {
     transition: all 0.5s;
 }
 #portfolio .portfolio-item:hover .portfolio-info i.fa {
-    font-size: 30px;
-    color: green;
+    font-size: 20px;
+    color:darksalmon;
 }
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
@@ -789,9 +795,9 @@ ul.nav li.active a:before {
     display: inline-block;
     width: 116px;
     height: 116px;
-    background-image: -moz-linear-gradient(90deg, green 0%, green 100%);
-    background-image: -webkit-linear-gradient(90deg, green 0%, green 100%);
-    background-image: -ms-linear-gradient(90deg, green 0%, green 100%);
+    background-image: -moz-linear-gradient(90deg,darksalmon 0%,darksalmon 100%);
+    background-image: -webkit-linear-gradient(90deg,darksalmon 0%,darksalmon 100%);
+    background-image: -ms-linear-gradient(90deg,darksalmon 0%,darksalmon 100%);
     color: #fff;
     border-radius: 100px;
     border: 5px solid #f6f6f6;
@@ -855,7 +861,7 @@ ul.nav li.active a:before {
     transition-duration: 0.3s;
 }
 .team-main-sec:hover h5 {
-    color: green;
+    color:darksalmon;
 }
 .team-sec h5 {
     color: #555;
@@ -894,7 +900,7 @@ ul.nav li.active a:before {
     text-align: center;
 }
 #testimonials .owl-theme .owl-controls .owl-page span {
-    background: green;
+    background:darksalmon;
 }
 .quote {
     position: relative;
@@ -964,7 +970,7 @@ ul.nav li.active a:before {
 }
 .blog-info h6:hover,
 .blog-info h5:hover {
-    color: green;
+    color:darksalmon;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -ms-transition-duration: 0.3s;
@@ -990,7 +996,7 @@ a.btn-blg {
     color: #666;
 }
 a.btn-blg:hover {
-    color: green;
+    color:darksalmon;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -ms-transition-duration: 0.3s;
@@ -1015,7 +1021,7 @@ a.btn-blg:hover {
 #client {
     text-align: center;
     position: relative;
-    padding: 70px 0px 10px 0px;
+    padding: 90px 0px 20px 0px;
 }
 .client-logo a {
     opacity: 0.4;
@@ -1033,6 +1039,7 @@ a.btn-blg:hover {
 #contact {
     text-align: center;
     padding: 3% 0% 0% 2%;
+    background-color: #3f3939;
 }
 .contact-sec-1 {
     text-align: left;
@@ -1041,13 +1048,13 @@ a.btn-blg:hover {
     font-weight: bold;
 }
 .contact-sec-1 ul.contact-form li i.fa {
-    color: #666;
+    color: #fff;
     float: left;
     margin-right: 10px;
 }
 .contact-sec-1 ul.contact-form li h6 {
     font-size: 14px;
-    color: #666;
+    color: #fff;
     margin: 0;
 }
 .contact-sec-1 ul {
@@ -1060,10 +1067,10 @@ a.btn-blg:hover {
     padding-bottom: 30px;
 }
 .contact-sec-1 ul li a {
-    color: #666;
+    color: #fff;
 }
 .contact-sec-1 ul li a:hover {
-    color: green;
+    color:darksalmon;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     -ms-transition-duration: 0.3s;
@@ -1156,7 +1163,7 @@ textarea.form-control {
 
 /*Full-screen-menu-stylesheet-include-here*/
 .top-animate {
-    background: green !important;
+    background:darksalmon !important;
     top: 13px !important;
     -webkit-transform: rotate(45deg);
     /* Chrome, Safari, Opera */
@@ -1166,7 +1173,7 @@ textarea.form-control {
     opacity: 0;
 }
 .bottom-animate {
-    background: green !important;
+    background:darksalmon !important;
     top: 13px !important;
     -webkit-transform: rotate(-225deg);
     /* Chrome, Safari, Opera */
@@ -1190,7 +1197,7 @@ textarea.form-control {
     top: 21px;
 }
 .menui {
-    background: green;
+    background:darksalmon;
     transition: 0.6s ease;
     transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
     margin-top: 10px;
@@ -1325,15 +1332,15 @@ textarea.form-control {
 a.btn-learn {
     height: 50px;
     width: 50px;
-    color: green;
-    border: 2px solid green;
+    color:darksalmon;
+    border: 2px soliddarksalmon;
     padding: 1% 2%;
     font-size: 15px;
     position: relative;
     top: 40px;
 }
 a.btn-learn:hover {
-    background: green;
+    background:darksalmon;
     color: #fff;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -1368,7 +1375,6 @@ a.btn-learn:hover {
 }
 .slide-sec {
 }
-
 .slide-sec-1 {
     text-align: right;
 }
