@@ -262,6 +262,9 @@ a.btn-send:hover {
     border: rgba(248, 248, 248, 0);
     padding: 5px 5px;
 }
+.navbar-toggle {
+background-color: #fff;
+}
 .navbar-brand  {
     position: relative;
     top: 20px;
@@ -442,7 +445,7 @@ ul.nav li.active a:before {
 }
 .heading h2 {
     font-family: 'helvetica_ce_55_romanregular';
-    padding-top: 20px;
+    padding-top: 70px;
 
 }
 .heading p {
@@ -459,7 +462,7 @@ ul.nav li.active a:before {
 }
 .ab-sec p {
     padding: 10px 0px;
-    font-size: 13px;
+    font-size: 15px;
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
@@ -1040,6 +1043,11 @@ a.btn-blg:hover {
     text-align: center;
     padding: 3% 0% 0% 2%;
     background-color: #3f3939;
+    padding-bottom: 40px;
+
+}
+.heading h2 {
+    padding-top: 70px;
 }
 .contact-sec-1 {
     text-align: left;
@@ -1400,6 +1408,17 @@ a.btn-learn:hover {
 }
 .parallex-content h6 {
     color: #fff;
+}
+@media screen and (max-width: 767px) {
+    #menu ul.nav li a {
+        font-size: 24px;
+        color: rgb(235, 197, 185);
+    }
+}
+@media screen and (max-width: 767px) {
+    #col-md-7 col-sm-12 col-xs-12{
+        padding-top: 50px;
+    }
 }
 
 /*Basic-Stylesheets-End-Here*/
