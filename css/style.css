@@ -1411,16 +1411,27 @@ a.btn-learn:hover {
 .parallex-content h6 {
     color: #fff;
 }
+@media screen and (min-width: 767px) {
+    .navbar-brand {
+        position: relative;
+        top: 15px;
+    }
+}
 @media screen and (max-width: 767px) {
     #menu ul.nav li a {
         font-size: 24px;
         color: rgb(235, 197, 185);
+        margin-bottom: 20px;
     }
-}
-@media screen and (max-width: 767px) {
+ 
     #navbar header {
         background-color: #884747;
     }
+
+.navbar-brand {
+    position: relative;
+    top: 0px;
 }
 
+}
 /*Basic-Stylesheets-End-Here*/
